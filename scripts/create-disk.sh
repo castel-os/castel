@@ -34,7 +34,6 @@ sudo mount "${LOOP_DEV}p1" /mnt/boot
 print "=== Creating FHS folders ==="
 sudo mkdir -p /mnt/{dev,etc,home,proc,root,sys,tmp,castel,var,run,apps}
 sudo mkdir -p /mnt/castel/{bin,lib,share}
-sudo mkdir -p /mnt/dev/console
 
 print "=== Creating for compatibility symlinks ==="
 
