@@ -1,0 +1,5 @@
+*.iso
+*.img
+
+iso_root/
+build/
