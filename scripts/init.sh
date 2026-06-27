@@ -28,6 +28,10 @@ mount -t devtmpfs devtmpfs /dev
 mount -t proc proc /proc
 mount -t sysfs sysfs /sys
 mount -t tmpfs tmpfs /run
+
+mkdir -p /run/dbus
+chown messagebus:messagebus /run/dbus 2>/dev/null
+
 hostname Castel
 echo "STAGE1 OK"
 STAGE1

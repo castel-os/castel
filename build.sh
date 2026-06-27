@@ -19,6 +19,8 @@ cd "$CASTEL_BUILD" && "$CASTEL/scripts/libc.sh"
 
 cd "$CASTEL_BUILD" && "$CASTEL/scripts/init.sh"
 
+cd "$CASTEL_BUILD" && "$CASTEL/scripts/dbus.sh"
+
 cd "$CASTEL_BUILD" && "$CASTEL/scripts/kernel.sh"
 
 cd "$CASTEL_BUILD" && "$CASTEL/scripts/limine.sh"

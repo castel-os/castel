@@ -60,10 +60,12 @@ EOF
 
 sudo tee /mnt/etc/passwd > /dev/null <<'EOF'
 root::0:0:root:/root:/castel/bin/sh
+messagebus:x:81:81:D-Bus Message Daemon:/var/run/dbus:/castel/bin/sh
 EOF
 
 sudo tee /mnt/etc/group > /dev/null <<'EOF'
 root:x:0:
+messagebus:x:81:
 EOF
 
 sudo tee /mnt/etc/fstab > /dev/null <<'EOF'
